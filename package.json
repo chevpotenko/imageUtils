@@ -1,0 +1,17 @@
+{
+  "name": "optimizeImage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-compress": "^1.1.5",
+    "canvas-png-compression": "0.0.3",
+    "exif-js": "^2.3.0"
+  }
+}

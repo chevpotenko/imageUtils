@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <input type="file" id="inputFile" accept="image/*" onchange="openFile(event)">    
+    <h2>image src</h2>
+    <img id="imgSource"> 
+    <h2>image optimized</h2>
+    <img id="imgOptimized">
+    <script src="node_modules/canvas-png-compression/dist/bundle.js"></script>
+    <script src="node_modules/exif-js/exif.js"></script>
+    <script src="node_modules/canvas-compress/dist/canvas-compress.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
